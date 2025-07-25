@@ -56,7 +56,7 @@ spec:
     spec:
       containers:
       - name: payment
-        image: kiran2655/payment:v1
+        image: kiran2655/payment:v2
         envFrom:
         - configMapRef:
             name: payment
